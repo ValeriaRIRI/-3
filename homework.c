@@ -8,7 +8,7 @@ int main(){
 	int quantity;
 	float price_unit, price;
 
-	printf("Ââåäèòå êîëè÷åñòâî òîâàðà: ");
+	printf("Ââåäèòå êîëè÷åñòâî òîâàðkjk: ");
 	scanf("%d", &quantity);
 
 	printf("Ââåäèòå ñòîèìîñòü òîâàðà çà åäèíèöó: ");
@@ -19,3 +19,4 @@ int main(){
 	printf("Îáùàÿ ñòîèìîñòü ïîêóïêè: %.2f", price);
 
 }
+
