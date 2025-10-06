@@ -8,13 +8,14 @@ int main(){
 	int quantity;
 	float price_unit, price;
 
-	printf("Введите количество товара: ");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГІГ®ГўГ Г°Г : ");
 	scanf("%d", &quantity);
 
-	printf("Введите стоимость товара за единицу: ");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ Г±ГІГ®ГЁГ¬Г®Г±ГІГј ГІГ®ГўГ Г°Г  Г§Г  ГҐГ¤ГЁГ­ГЁГ¶Гі: ");
 	scanf("%f", &price_unit);
 
 	price = quantity * price_unit;
 
-	printf("Общая стоимость покупки: %.2f", price);
+	printf("ГЋГЎГ№Г Гї Г±ГІГ®ГЁГ¬Г®Г±ГІГј ГЇГ®ГЄГіГЇГЄГЁ: %.2f", price);
+
 }
